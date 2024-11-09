@@ -1463,7 +1463,7 @@ header.main-header .header-sticky.active{
 }
 
 .quality-treatment{
-	background: linear-gradient(90deg, var(--secondary-color) 50%, transparent 50%), url(../images/quality-treatment-img.jpg);
+	background: linear-gradient(90deg, var(--secondary-color) 50%, transparent 50%), url(../images/radiologist-img-1.avif);
 	background-repeat: no-repeat;
 	background-position: right center;
     background-size: auto;
