@@ -470,7 +470,7 @@ body{
 /************************************/
 
 .topbar{
-	padding: 15px 0 65px;
+	padding: 8px 0 8px;
 	background-color: var(--primary-color);
 }
 
@@ -535,11 +535,11 @@ body{
 }
 
 header.main-header{
-	background-color: transparent;
+	background-color: #023047;
 	border-bottom: 1px solid var(--divider-color);
 	position: relative;
 	z-index: 100;
-	margin-top: -50px;
+	margin-top: ;
 }
 
 header.main-header .header-sticky{
@@ -798,14 +798,26 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero{
-	background: var(--primary-color) url('../images/hero-bg.jpg') no-repeat;
+	
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
-	padding: 240px 0 210px;
+	padding: 160px 0 210px;
 	margin-top: -100px;
 }
-
+.hero-1{
+	background: var(--primary-color) url('../images/home-1.png') no-repeat;
+}
+.hero-2{
+	background: var(--primary-color) url('../images/home-2.png') no-repeat;
+}
+.hero-3{
+	background: var(--primary-color) url('../images/GeneralOrthopedics.png') no-repeat;
+	background-size: contain;
+}
+.hero-4{
+	background: var(--primary-color) url('../images/home-4.png') no-repeat;
+}
 .hero::before{
 	content: '';
 	position: absolute;
@@ -916,8 +928,14 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	max-width: 610px;
 	z-index: 1;
+	right: 0px;
+	padding-left: 120px;
 }
-
+@media(max-width:768px){
+	.hero-content{
+		padding-left: 0px;
+	}
+}
 .hero-content .section-title h1{
 	color: var(--white-color);
 }
@@ -937,8 +955,14 @@ header.main-header .header-sticky.active{
 
 .our-benefits{
 	background-color: var(--primary-color);
-	padding: 50px 0 100px;
+	padding: 85px 0 85px;
 }
+/* @media(max-width:768px){
+	.our-benefits{
+		background-color: var(--primary-color);
+		padding: 185px 0 85px;
+	}
+} */
 
 .benefits-item{
 	display: flex;
@@ -2698,11 +2722,11 @@ footer.main-footer{
 	object-fit: cover;
 }
 
-.page-about-img-2{
-	position: absolute;
-	top: 0;
-	left: 50%;
-	z-index: 1;
+.page-about-img-2 {
+    position: absolute;
+    top: 65px;
+    left: 59%;
+    z-index: 1;
 }
 
 .about-testimonial-box{
@@ -5143,6 +5167,7 @@ footer.main-footer{
 
 	.benefits-item{
 		margin-bottom: 20px;
+		margin-top: 20px;
 	}
 
 	.our-benefits .col-lg-4:nth-child(2n + 2) .benefits-item{
@@ -6648,4 +6673,11 @@ footer.main-footer{
 	.error-page-content-heading h2{
         font-size: 30px;
 	}
+}
+.swiper-button-next,.swiper-button-prev{
+	color: var(--primary-color);
+	
+}
+.swiper-pagination-bullet {
+	background:var(--primary-color);
 }
