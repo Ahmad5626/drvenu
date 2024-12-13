@@ -812,7 +812,7 @@ header.main-header .header-sticky.active{
 	background: var(--primary-color) url('../images/home-2.png') no-repeat;
 }
 .hero-3{
-	background: var(--primary-color) url('../images/GeneralOrthopedics.png') no-repeat;
+	background: var(--primary-color) url('../images/gg.png') no-repeat;
 	background-size: contain;
 }
 .hero-4{
@@ -2494,14 +2494,32 @@ footer.main-footer{
 /************************************/
 
 .page-header{
-    background: var(--primary-color) url(../images/hero-bg.jpg) no-repeat;
+	background: var(--primary-color) url(../images/GeneralOrthopedics.png) no-repeat;	
     background-position: center center;
     background-size: cover;
     overflow: hidden;
     padding: 220px 0;
     margin-top: -100px;
 }
-
+.page-header-arthroscopy{
+    background: var(--primary-color) url(../images/Arthroscopy-blogpage.png) no-repeat;	
+}
+.page-header-Arthroplasty-join-Replacement{
+	background: var(--primary-color) url(../images/joint-replacemnet.png) no-repeat;	
+}
+.page-header-trauma{
+	background: var(--primary-color) url(../images/Trauma-Management.png) no-repeat;
+}
+.page-header-Sports-Medicine{
+	background: var(--primary-color) url(../images/Sports-Medicine.png) no-repeat;
+}
+.page-header-Shoulder-Specialist{
+	background: var(--primary-color) url(../images/Shoulder-Pain.jpg) no-repeat ;
+	background-size: cover;
+}
+.page-header-General-Orthopedics{
+	background: var(--primary-color) url(../images/GeneralOrthopedics-page.png) no-repeat ;
+}
 .page-header::before{
 	content: '';
     position: absolute;
@@ -2600,7 +2618,7 @@ footer.main-footer{
 	margin-bottom: 0;
 }
 
-.page-about-content-item::before{
+/* .page-about-content-item::before{
 	content: '';
     position: absolute;
     top: 100%;
@@ -2612,7 +2630,7 @@ footer.main-footer{
     width: 100%;
     z-index: 0;
     opacity: 0;
-}
+} */
 
 .page-about-content-item:hover:before{
     top: 0;
@@ -3598,6 +3616,7 @@ footer.main-footer{
 .page-header.service-single-page-header::after{
 	background-image: url('../images/page-header-bg-shape-3.svg');
 }
+
 
 .page-service-single{
 	background-color: var(--white-color);
