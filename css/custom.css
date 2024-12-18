@@ -2566,7 +2566,7 @@ footer.main-footer{
     position: absolute;
     right: 0;
     bottom: 0;
-    background-image: url('../images/page-header-bg-shape-1.svg');
+    /* background-image: url('../images/page-header-bg-shape-1.svg'); */
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-size: auto;
@@ -4771,7 +4771,7 @@ footer.main-footer{
 /************************************/
 
 .page-header.contact-page-header::after{
-	background-image: url('../images/page-header-bg-shape-4.svg');
+	/* background-image: url('../images/page-header-bg-shape-4.svg'); */
 }
 
 .page-contact-us{
